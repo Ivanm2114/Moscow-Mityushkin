@@ -18,7 +18,7 @@ class Example(QWidget):
 
         self.pushButton.setText('Press Me')
         self.pushButton.resize(100, 50)
-        self.pushButton.move(100, 100)
+        self.pushButton.move(200, 150)
         self.pushButton.clicked.connect(self.draw)
 
     def draw(self):
